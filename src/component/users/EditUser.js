@@ -36,7 +36,7 @@ const EditUser = () => {
     setUser(resultData.data);
   };
 
-  return (
+  return (        
     <div className="container w-25">
       <h1 className="text-center mb-4 text-dark font-weight-bold">
         Edit User Page

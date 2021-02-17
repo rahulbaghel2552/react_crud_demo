@@ -15,6 +15,7 @@ const AddUser = () => {
   const { name, username, email, phone, website } = user;
 
   const onInputChange = (e) => {
+    console.log(e);
     setUser({ ...user, [e.target.name]: e.target.value });
   };
 
